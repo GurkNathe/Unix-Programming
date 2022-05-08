@@ -1,0 +1,7 @@
+exit: usage: exit [n] outcome: terminates the shell
+prompt: usage: prompt [new_prompt] outcome: terminal prompt is changed to new_prompt
+cpuinfo: usage: cpuinfo [-switch] options: -c (cpu clock speed), -t (cpu type), -n (number of cores) 
+cpuinfo: outcome: information about this computer's cpu is displayed
+meminfo: usage: meminfo [-switch] options: -t (total available ram memory), -c (l2 cache size) 
+meminfo: outcome: information about this computer's memory is displayed
+manual: usage: manual [command] outcome: help information about the command is displayed
